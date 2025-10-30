@@ -1,0 +1,46 @@
+:root {
+  --primary: #7A6FBE;
+
+  --white: #FFFFFF;
+  --white-muted: #F5F5F5;
+  --white-soft: #FAFAFA;
+  --black: #1f2431;
+
+  --gray: #1F2431;
+  --gray-medium: #2A3142;
+  --gray-light: #323A4E;
+
+  --text-main: #79829C;
+  --text-light: var(--gray);
+  --text-light-alpha: rgba(31, 36, 49, 0.75);
+  --text-dark: #ADB5BD;
+  --text-dark-alpha: rgba(173, 181, 189, 0.75);
+
+  --text-color-main: var(--text-main);
+}
+
+:root {
+  --background-body: var(--white-muted);
+  --background-pre-header: var(--gray-medium);
+  --background-header: var(--white);
+  --background-navbar: var(--white);
+
+  --card-background: var(--white);
+
+  --text-color: var(--text-light);
+  --text-color-alpha: var(--text-light-alpha);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-body: var(--gray);
+    --background-pre-header: var(--gray-medium);
+    --background-header: var(--primary);
+    --background-navbar: var(--gray-light);
+
+    --card-background: var(--gray-medium);
+
+    --text-color: var(--white);
+    --text-color-alpha: var(--text-dark-alpha);
+  }
+}
