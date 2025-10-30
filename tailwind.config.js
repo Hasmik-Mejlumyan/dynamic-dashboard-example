@@ -6,8 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primary: {
+          DEFAULT: 'var(--primary)',
+          // dark: 'var(--primary-dark)',
+        },
         'background-body': 'var(--background-body)',
-        'background-pre-header': 'var(--background-pre-header)',
+        'background-sub-header': 'var(--background-sub-header)',
         'background-header': 'var(--background-header)',
         'background-navbar': 'var(--background-navbar)',
         'card-background': 'var(--card-background)',

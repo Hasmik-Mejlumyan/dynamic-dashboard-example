@@ -21,7 +21,7 @@
 
 :root {
   --background-body: var(--white-muted);
-  --background-pre-header: var(--gray-medium);
+  --background-sub-header: var(--gray-medium);
   --background-header: var(--white);
   --background-navbar: var(--white);
 
@@ -34,7 +34,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-body: var(--gray);
-    --background-pre-header: var(--gray-medium);
+    --background-sub-header: var(--gray-medium);
     --background-header: var(--primary);
     --background-navbar: var(--gray-light);
 
@@ -43,4 +43,8 @@
     --text-color: var(--white);
     --text-color-alpha: var(--text-dark-alpha);
   }
+}
+
+.container {
+  @apply px-3 max-w-[1323px] mx-auto;
 }
