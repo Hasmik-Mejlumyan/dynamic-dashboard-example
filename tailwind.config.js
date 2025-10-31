@@ -20,6 +20,7 @@ module.exports = {
         'background-header': 'var(--background-header)',
         'background-navbar': 'var(--background-navbar)',
         'card-background': 'var(--card-background)',
+        'card-text-color': 'var(--card-text-color)',
         'text-color': 'var(--text-color)',
         'text-color-alpha': 'var(--text-color-alpha)',
         'text-color-main': 'var(--text-color-main)',

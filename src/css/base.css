@@ -36,6 +36,7 @@
   --background-navbar: var(--white);
 
   --card-background: var(--white);
+  --card-text-color: var(--text-light);
 
   --text-color: var(--text-light);
   --text-color-alpha: var(--text-light-alpha);
@@ -52,6 +53,7 @@
     --background-navbar: var(--gray-light);
 
     --card-background: var(--gray-medium);
+    --card-text-color: var(--text-dark);
 
     --text-color: var(--white);
     --text-color-alpha: var(--white);

@@ -1,6 +1,7 @@
 import MainLayout from './components/layout/MainLayout/MainLayout';
 import Charts from './components/Charts/Charts.tsx';
 import MainStats from './components/Statistics/MainStats.tsx';
+import Card from './components/UI/Card/Card.tsx';
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
         {/*  <div className="bg-primary col-span-2">2</div>*/}
         {/*  <div className="bg-primary">3</div>*/}
         {/*</div>*/}
+        <Card title="Card title" className="max-w-2xl">
+          Card body
+        </Card>
       </div>
     </MainLayout>
   );
