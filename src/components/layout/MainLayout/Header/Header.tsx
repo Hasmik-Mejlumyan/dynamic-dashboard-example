@@ -20,7 +20,7 @@ const Header = () => {
               variant="icon"
               icon={<Maximize />}
             />
-            {/* TODO: Make Bell with dropdown (Create component for that */}
+            {/* TODO: Make Bell with dropdown (Create component for that) and badge for count | move to a separate component with its logic */}
             <Button
               variant="icon"
               icon={<Bell />}
