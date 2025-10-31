@@ -1,7 +1,8 @@
+import type { FC } from 'react';
 import { Layers } from 'lucide-react';
 import type { RevenueCardProps } from './types.ts';
 
-const Statistics: React.FC<RevenueCardProps> = ({
+const Statistics: FC<RevenueCardProps> = ({
   title,
   value,
   percentage,

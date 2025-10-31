@@ -1,9 +1,14 @@
 :root {
   --primary: #7A6FBE;
+  --primary-dark: #695998;
+  --secondary: #6C757D;
+  --secondary-dark: #5C636A;
+  --secondary-darker: #565E64;
 
   --white: #FFFFFF;
   --white-muted: #F5F5F5;
   --white-soft: #FAFAFA;
+  --white-alpha: rgba(255, 255, 255, 0.1);
   --black: #1f2431;
 
   --gray: #1F2431;
@@ -16,7 +21,11 @@
   --text-dark: #ADB5BD;
   --text-dark-alpha: rgba(173, 181, 189, 0.75);
 
+  --header-item-color-dark: #FFFFFFB3;
+  --header-item-color-light: #555B6D;
+
   --text-color-main: var(--text-main);
+
 }
 
 :root {
@@ -29,6 +38,9 @@
 
   --text-color: var(--text-light);
   --text-color-alpha: var(--text-light-alpha);
+
+  --header-item-color: var(--header-item-color-light);
+  --header-search-background: var(--white);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,7 +53,10 @@
     --card-background: var(--gray-medium);
 
     --text-color: var(--white);
-    --text-color-alpha: var(--text-dark-alpha);
+    --text-color-alpha: var(--white);
+
+    --header-item-color: var(--header-item-color-dark);
+    --header-search-background: var(--white-alpha);
   }
 }
 

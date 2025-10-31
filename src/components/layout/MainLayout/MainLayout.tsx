@@ -1,13 +1,12 @@
 import type { FC, PropsWithChildren } from 'react';
+import Header from './Header/Header.tsx';
 
 const MainLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <div>
-      <header>
-        <div>Main header</div>
-        <div>Sub header</div>
-      </header>
+      <Header />
       <nav>
+        <div>Sub header</div>
         <div>Navbar</div>
       </nav>
       <main>
