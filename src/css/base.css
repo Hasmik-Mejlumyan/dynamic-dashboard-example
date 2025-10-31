@@ -24,8 +24,9 @@
   --header-item-color-dark: #FFFFFFB3;
   --header-item-color-light: #555B6D;
 
-  --text-color-main: var(--text-main);
+  /*------------------------------*/
 
+  --text-color-main: var(--text-main);
 }
 
 :root {
