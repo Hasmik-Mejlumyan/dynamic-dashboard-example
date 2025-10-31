@@ -11,7 +11,7 @@ const MainLayout: FC<PropsWithChildren> = ({ children }) => {
         <SubHeader />
         <NavBar />
       </nav>
-      <main>
+      <main className="pt-7 bg-background-body">
         <div className="container">
           {/* Could be <Outlet /> from "react-router-dom" */}
           {children}

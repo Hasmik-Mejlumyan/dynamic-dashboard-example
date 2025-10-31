@@ -6,7 +6,7 @@ const App = () => {
   return (
     <MainLayout>
       <div>
-        <div className="grid grid-cols-4 gap-2">
+        < div className="grid grid-cols-4 gap-2">
           <Statistics title="Orders" value={582} percentage={-4} isPositive={false}/>
           <Statistics title="Revenue" value={`$123456`} percentage={10} isPositive={true}/>
           <Statistics title="Average Price" value={`$15.9`} percentage={0} isPositive={false}/>
