@@ -18,7 +18,7 @@ const MainStat: FC<IMainStatProps> = ({
   };
 
   return (
-    <div className="relative bg-[#7a68c1] text-white rounded p-5 shadow-lg overflow-hidden">
+    <div className="relative bg-primary text-white rounded p-5 shadow-lg overflow-hidden">
       {/* Wave background */}
       <svg
         className="absolute bottom-0 left-0 w-full h-24 text-[#8b7bd1]"
