@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Orders",
+    "value": 1587 ,
+    "isCurrency": false,
+    "percentage": 11,
+    "icon": "cube"
+  },
+  {
+    "title": "Revenue",
+    "value": 46782 ,
+    "isCurrency": true,
+    "percentage": -29,
+    "icon": "layers"
+  },
+  {
+    "title": "Average Price",
+    "value": 15.9 ,
+    "isCurrency": true,
+    "percentage": 0,
+    "icon": "label"
+  },
+  {
+    "title": "Product Sold",
+    "value": 1890,
+    "isCurrency": false,
+    "percentage": 89,
+    "icon": "case"
+  }
+]

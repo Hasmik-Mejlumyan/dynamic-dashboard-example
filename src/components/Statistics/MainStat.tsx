@@ -1,15 +1,24 @@
 import type { FC } from 'react';
-import { Layers } from 'lucide-react';
-import type { RevenueCardProps } from './types.ts';
+import { Box, BriefcaseBusiness, Layers, Tag } from 'lucide-react';
+import type { IMainStatProps } from './types.ts';
 
-const Statistics: FC<RevenueCardProps> = ({
+const MainStat: FC<IMainStatProps> = ({
   title,
   value,
+  isCurrency,
   percentage,
-  isPositive = false,
+  icon,
 }) => {
+  const isPositive = percentage > 0;
+  const iconsMapping = {
+    cube: <Box className="w-6 h-6 text-white opacity-60" />,
+    layers: <Layers className="w-6 h-6 text-white opacity-60" />,
+    label: <Tag className="w-6 h-6 text-white opacity-60" />,
+    case: <BriefcaseBusiness className="w-6 h-6 text-white opacity-60" />,
+  };
+
   return (
-    <div className="relative bg-[#7a68c1] text-white rounded-xl p-5 max-w-[300px] shadow-lg overflow-hidden">
+    <div className="relative bg-[#7a68c1] text-white rounded p-5 shadow-lg overflow-hidden">
       {/* Wave background */}
       <svg
         className="absolute bottom-0 left-0 w-full h-24 text-[#8b7bd1]"
@@ -22,15 +31,14 @@ const Statistics: FC<RevenueCardProps> = ({
         ></path>
       </svg>
 
-      {/* Content */}
       <div className="relative z-10 flex justify-between items-start">
         <div>
           <p className="text-sm font-medium opacity-90 uppercase">{title}</p>
-          <h2 className="text-3xl font-semibold mt-1">
-            {typeof value === "number"
+          <h3 className="text-3xl font-semibold mt-1">
+            {isCurrency ? "$" : ""}{typeof value === "number"
               ? `${value.toLocaleString()}`
               : value}
-          </h2>
+          </h3>
 
           <div className="flex items-center gap-2 mt-3">
             <span
@@ -41,19 +49,18 @@ const Statistics: FC<RevenueCardProps> = ({
                   : "bg-red-500 text-white"
               }`}
             >
-              {percentage === 0 ? '' : isPositive ? "+" : "-"}
-              {Math.abs(percentage)}%
+              {percentage}%
             </span>
             <span className="text-sm opacity-90">From previous period</span>
           </div>
         </div>
 
         <div className="bg-white/15 p-3 rounded-full">
-          <Layers className="w-6 h-6 text-white opacity-60" />
+          {iconsMapping[icon]}
         </div>
       </div>
     </div>
   );
 };
 
-export default Statistics;
+export default MainStat;
