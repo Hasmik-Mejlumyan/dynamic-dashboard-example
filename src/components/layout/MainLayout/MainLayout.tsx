@@ -1,6 +1,7 @@
 import type { FC, PropsWithChildren } from 'react';
 import Header from './Header/Header.tsx';
 import SubHeader from './SubHeader.tsx';
+import NavBar from './NavBar/NavBar.tsx';
 
 const MainLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
@@ -8,7 +9,7 @@ const MainLayout: FC<PropsWithChildren> = ({ children }) => {
       <Header />
       <nav>
         <SubHeader />
-        <div>Navbar</div>
+        <NavBar />
       </nav>
       <main>
         <div className="container">

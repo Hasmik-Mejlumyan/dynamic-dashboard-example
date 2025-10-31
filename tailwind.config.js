@@ -22,6 +22,7 @@ module.exports = {
         'card-background': 'var(--card-background)',
         'text-color': 'var(--text-color)',
         'text-color-alpha': 'var(--text-color-alpha)',
+        'text-color-main': 'var(--text-color-main)',
         'white-muted': 'var(--white-muted)',
         'white-soft': 'var(--white-soft)',
         'header-item-color': 'var(--header-item-color)',
