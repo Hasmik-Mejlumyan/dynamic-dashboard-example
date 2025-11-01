@@ -33,6 +33,16 @@ module.exports = {
         'recent-activity-date': 'var(--recent-activity-date)',
         'recent-activity-item-bg': 'var(--recent-activity-item-bg)',
       },
+      screens: {
+        xxs: '{ max: 320px }',
+        xs: '{ max: 375px }',
+        sm: '{ max: 575px }',
+        md: '{ max: 768px }',
+        lg: '{ max: 992px }',
+        xl: '{ max: 1200px }',
+        '2xl': '{ max: 1440px }',
+        '3xl': '{ max: 1920px }',
+      }
     },
   },
   plugins: [],

@@ -2,11 +2,14 @@ import type { FC } from 'react';
 import type { ISideBarProps } from './types.ts';
 import Button from '../../UI/Button/Button.tsx';
 import { X } from 'lucide-react';
+import useDarkMode from '../../../hooks/useDarkMode.ts';
 
 const SideBar: FC<ISideBarProps> = ({
   isOpen = false,
   onChange = () => {}
 }) => {
+  const { theme, changeTheme } = useDarkMode();
+
   const handleClose = () => {
     onChange(false);
   };
@@ -32,10 +35,22 @@ const SideBar: FC<ISideBarProps> = ({
             />
           </div>
           <div className="flex-1 p-6">
-            <span className="text-sm text-text-color">Mode</span>
+            <span className="text-sm text-text-color mb-2">Mode</span>
             <div className="flex items-center gap-1">
-              <Button>Light</Button>
-              <Button>Dark</Button>
+              <Button
+                className="!ring-0"
+                variant={theme === 'light' ? 'primary' : 'secondary'}
+                onClick={() => changeTheme('light')}
+              >
+                Light
+              </Button>
+              <Button
+                className="!ring-0"
+                variant={theme === 'dark' ? 'primary' : 'secondary'}
+                onClick={() => changeTheme('dark')}
+              >
+                Dark
+              </Button>
             </div>
           </div>
         </div>
