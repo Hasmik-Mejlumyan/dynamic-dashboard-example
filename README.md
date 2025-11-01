@@ -9,6 +9,7 @@ Website: https://dynamic-dashboard-example.vercel.app/
 ## 🔍 Table of Contents
 - [📦 Installation](#-installation)
 - [💻 Tech Stack](#-tech-stack)
+- [🛠️ Solutions](#-solutions)
 
 ## 📦 Installation
 1. Clone the repository
@@ -31,6 +32,14 @@ yarn dev
 - `Node.js` v22.14.0
 - `npm` v10.9.2
 - `yarn` 1.22.4
+
+## 🛠️ Solutions
+
+### Custom UI Library
+I preferred to configure my own UI library, instead of using a ready-made one, to have more control over the design and to be able to customize it to my needs.
+
+### Lucide React icons or Custom Icon Library?
+I would prefer a custom Icon Library for not downloading whole huge external library, but in this case for faster results I installed Lucide React icons.
 
 ## 💻 Tech Stack
 <div>
