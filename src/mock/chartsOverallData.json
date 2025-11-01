@@ -1,0 +1,36 @@
+{
+  "monthlyEarningsPie": [
+    {
+      "label": "Marketplace",
+      "value": 56241
+    },
+    {
+      "label": "Total Income",
+      "value": 23651
+    }
+  ],
+  "emailSent": [
+    {
+      "label": "Marketplace",
+      "value": 89425
+    },
+    {
+      "label": "Total Income",
+      "value": 56241
+    },
+    {
+      "label": "Last Month",
+      "value": 56241
+    }
+  ],
+  "monthlyEarnings": [
+    {
+      "label": "Marketplace",
+      "value": 2548
+    },
+    {
+      "label": "Total Income",
+      "value": 6985
+    }
+  ]
+}

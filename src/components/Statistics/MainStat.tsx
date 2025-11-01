@@ -11,10 +11,10 @@ const MainStat: FC<IMainStatProps> = ({
 }) => {
   const isPositive = percentage > 0;
   const iconsMapping = {
-    cube: <Box className="w-6 h-6 text-white opacity-60" />,
-    layers: <Layers className="w-6 h-6 text-white opacity-60" />,
-    label: <Tag className="w-6 h-6 text-white opacity-60" />,
-    case: <BriefcaseBusiness className="w-6 h-6 text-white opacity-60" />,
+    cube: <Box className="w-6 h-6 text-white" />,
+    layers: <Layers className="w-6 h-6 text-white" />,
+    label: <Tag className="w-6 h-6 text-white" />,
+    case: <BriefcaseBusiness className="w-6 h-6 text-white" />,
   };
 
   return (
