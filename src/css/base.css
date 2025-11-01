@@ -27,9 +27,14 @@
   --border-dark: #3a445b;
   --border-light: #dee2e6;
 
+  --recent-activity-item-bg-dark: #30384B;
+  --recent-activity-item-bg-light: #F8F9FA;
+
   /*------------------------------*/
 
   --text-color-main: var(--text-main);
+
+  --recent-activity-date: #8C96A3;
 }
 
 :root {
@@ -50,6 +55,8 @@
   --inbox-title-color: var(--gray-medium);
 
   --border-color: var(--border-light);
+
+  --recent-activity-item-bg: var(--recent-activity-item-bg-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,6 +78,8 @@
     --inbox-title-color: var(--white);
 
     --border-color: var(--border-dark);
+
+    --recent-activity-item-bg: var(--recent-activity-item-bg-dark);
   }
 }
 

@@ -30,6 +30,8 @@ module.exports = {
         'header-search-background': 'var(--header-search-background)',
         'inbox-title-color': 'var(--inbox-title-color)',
         'border-color': 'var(--border-color)',
+        'recent-activity-date': 'var(--recent-activity-date)',
+        'recent-activity-item-bg': 'var(--recent-activity-item-bg)',
       },
     },
   },
