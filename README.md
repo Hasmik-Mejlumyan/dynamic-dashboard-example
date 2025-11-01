@@ -4,5 +4,38 @@
 
 Basic responsive dashboard example with dynamic content created with Tailwind CSS. Supports Dark mode.
 The website is deployed on [Vercel](https://vercel.com/). <br>
-Website:
+Website: https://dynamic-dashboard-example.vercel.app/
 
+## 🔍 Table of Contents
+- [📦 Installation](#-installation)
+- [💻 Tech Stack](#-tech-stack)
+
+## 📦 Installation
+1. Clone the repository
+```bash
+git clone https://github.com/Hasmik-Mejlumyan/dynamic-dashboard-example.git
+```
+
+2. Install the dependencies
+```html
+yarn
+```
+_*Note: Ensure you are using Node.js v22.14.0 for better and stable experience._
+
+3. Run the project
+```bash
+yarn dev  
+```
+
+### Minimal requirements
+- `Node.js` v22.14.0
+- `npm` v10.9.2
+- `yarn` 1.22.4
+
+## 💻 Tech Stack
+<div>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg" title="Typescript" alt="Typescript" width="40" height="40"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40" />&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-original.svg" title="TailwindCSS" alt="TailwindCSS" width="40" height="40" />&nbsp;
+</div>
