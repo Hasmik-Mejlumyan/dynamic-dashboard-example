@@ -1,13 +1,25 @@
-import type { FC, PropsWithChildren } from 'react';
+import { type FC, type PropsWithChildren, useState } from 'react';
 import Header from './Header/Header.tsx';
 import SubHeader from './SubHeader.tsx';
 import NavBar from './NavBar/NavBar.tsx';
 import Footer from './Footer.tsx';
+import SideBar from './SideBar.tsx';
 
 const MainLayout: FC<PropsWithChildren> = ({ children }) => {
+  const [isSideBarOpen, setIsSideBarOpen] = useState<boolean>(false);
+
+  const handleSideBarChange = (isOpen: boolean) => {
+    setIsSideBarOpen(isOpen);
+  }
+
+  const handleSideBarOpen = () => {
+    setIsSideBarOpen(true);
+  };
+
   return (
     <div>
-      <Header />
+      <Header onSideBarOpen={handleSideBarOpen} />
+      <SideBar isOpen={isSideBarOpen} onChange={handleSideBarChange} />
       <nav>
         <SubHeader />
         <NavBar />

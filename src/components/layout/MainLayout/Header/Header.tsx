@@ -1,10 +1,16 @@
-import Button from '../../../UI/Button/Button.tsx';
+import type { FC } from 'react';
+
 import { Bell, Cog, Maximize } from 'lucide-react';
-import Avatar from '../../../UI/Avatar/Avatar.tsx';
 import HeaderLanguageSelect from './HeaderLanguageSelect.tsx';
 import HeaderSearch from './HeaderSearch.tsx';
 
-const Header = () => {
+import Button from '../../../UI/Button/Button.tsx';
+import Avatar from '../../../UI/Avatar/Avatar.tsx';
+
+import type { IHeaderProps } from '../types.ts';
+
+const Header: FC<IHeaderProps> = ({ onSideBarOpen }) => {
+
   return (
     <header className="bg-background-header text-header-item-color">
       <div className="container">
@@ -25,11 +31,12 @@ const Header = () => {
               variant="icon"
               icon={<Bell />}
             />
-            <Avatar size="lg" />
+            <Avatar src="/images/static/people/misty.jpg" size="lg" />
             <Button
               className="animate-spin"
               variant="icon"
               icon={<Cog />}
+              onClick={onSideBarOpen}
             />
           </div>
         </div>
