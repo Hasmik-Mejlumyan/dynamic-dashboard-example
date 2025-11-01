@@ -41,6 +41,9 @@ I preferred to configure my own UI library, instead of using a ready-made one, t
 ### Lucide React icons or Custom Icon Library?
 I would prefer a custom Icon Library for not downloading whole huge external library, but in this case for faster results I installed Lucide React icons.
 
+### Charts
+For charts I used Recharts library. I would use what was used in the original example, but it wasn't fully compatible and was using jQuery.
+
 ## 💻 Tech Stack
 <div>
     <img src="https://github.com/devicons/devicon/blob/master/icons/vitejs/vitejs-original.svg" title="Vite" alt="Vite" width="40" height="40"/>&nbsp;
