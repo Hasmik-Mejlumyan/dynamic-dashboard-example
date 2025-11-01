@@ -7,8 +7,8 @@ const NavBarItem: FC<INavBarItem> = ({
   icon: Icon,
 }) => {
   return (
-    <li>
-      <a className="px-6 py-5 flex flex-col items-center hover:text-primary" href={href}>
+    <li className="max-lg:w-full">
+      <a className="px-6 py-5 flex flex-col items-center hover:text-primary max-lg:flex-row max-lg:justify-start max-lg:py-3 max-lg:px-4 max-lg:gap-4" href={href}>
         <Icon className="size-4" />
         <span className="text-sm">
           {label}

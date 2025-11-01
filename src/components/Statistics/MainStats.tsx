@@ -17,7 +17,7 @@ const MainStats = () => {
     ))
   )
   return (
-    <div className="grid grid-cols-4 gap-6 mb-6">
+    <div className="grid grid-cols-4 gap-6 mb-6 max-xl:grid-cols-2 max-md:grid-cols-1">
       {mainStatsContent}
     </div>
   );

@@ -22,7 +22,7 @@ const MainLayout: FC<PropsWithChildren> = ({ children }) => {
       <SideBar isOpen={isSideBarOpen} onChange={handleSideBarChange} />
       <nav>
         <SubHeader />
-        <NavBar />
+        <NavBar className="max-lg:hidden" />
       </nav>
       <main className="pt-7 pb-6 bg-background-body">
         <div className="container">

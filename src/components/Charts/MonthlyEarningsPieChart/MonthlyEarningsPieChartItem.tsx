@@ -23,7 +23,7 @@ const MonthlyEarningsPieChartItem = () => {
     <div className="flex flex-wrap w-full min-h-[300px] p-2 mt-auto">
       <PieChart
         responsive
-        className="w-full h-full aspect-[1] flex-1 scale-125"
+        className="w-full h-full aspect-[1] flex-1 scale-125 max-xl:scale-100"
       >
         <MyPie />
         <Label className="fill-text-color" position="center">

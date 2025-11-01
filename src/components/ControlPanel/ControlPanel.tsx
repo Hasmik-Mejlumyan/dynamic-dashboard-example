@@ -4,7 +4,7 @@ import SalesAndTestimonials from './SalesAndTestimonials/SalesAndTestimonials.ts
 
 const ControlPanel = () => {
   return (
-    <div className="grid grid-cols-3 gap-6 mb-6">
+    <div className="grid grid-cols-3 gap-6 mb-6 max-xl:grid-cols-2 max-lg:grid-cols-1">
       <Inbox />
       <RecentActivityFeed />
       <SalesAndTestimonials />

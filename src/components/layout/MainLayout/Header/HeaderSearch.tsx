@@ -2,9 +2,9 @@ import { Search } from 'lucide-react';
 
 const HeaderSearch = () => {
   return (
-    <form className="max-w-[13.875rem] w-full relative">
+    <form className="max-w-[13.875rem] w-full relative max-sm:max-w-[unset] max-sm:w-[unset]">
       <input
-        className="bg-header-search-background w-full py-1.5 pl-5 pr-10 rounded-3xl outline-none"
+        className="bg-header-search-background w-full py-1.5 pl-5 pr-10 rounded-3xl outline-none max-md:hidden"
         placeholder="Search..."
         type="text"
       />

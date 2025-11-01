@@ -1,7 +1,7 @@
 const HeaderLanguageSelect = () => {
   // TODO: Customize
   return (
-    <div>
+    <div className="max-sm:hidden">
       <select
         className="bg-background-header text-header-item-color"
         name="lang"
