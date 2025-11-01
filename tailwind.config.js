@@ -28,6 +28,8 @@ module.exports = {
         'white-soft': 'var(--white-soft)',
         'header-item-color': 'var(--header-item-color)',
         'header-search-background': 'var(--header-search-background)',
+        'inbox-title-color': 'var(--inbox-title-color)',
+        'border-color': 'var(--border-color)',
       },
     },
   },

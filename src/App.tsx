@@ -1,6 +1,7 @@
 import MainLayout from './components/layout/MainLayout/MainLayout';
-import Charts from './components/Charts/Charts.tsx';
 import MainStats from './components/Statistics/MainStats.tsx';
+import Charts from './components/Charts/Charts.tsx';
+import ControlPanel from './components/ControlPanel/ControlPanel.tsx';
 
 const App = () => {
   return (
@@ -8,7 +9,7 @@ const App = () => {
       <div>
         <MainStats />
         <Charts/>
-        {/*ControlPanel*/}
+        <ControlPanel />
         {/*Latest Activity*/}
       </div>
     </MainLayout>

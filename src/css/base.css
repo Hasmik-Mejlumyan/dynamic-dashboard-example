@@ -24,6 +24,9 @@
   --header-item-color-dark: #FFFFFFB3;
   --header-item-color-light: #555B6D;
 
+  --border-dark: #3a445b;
+  --border-light: #dee2e6;
+
   /*------------------------------*/
 
   --text-color-main: var(--text-main);
@@ -43,6 +46,10 @@
 
   --header-item-color: var(--header-item-color-light);
   --header-search-background: var(--white);
+
+  --inbox-title-color: var(--gray-medium);
+
+  --border-color: var(--border-light);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,6 +67,10 @@
 
     --header-item-color: var(--header-item-color-dark);
     --header-search-background: var(--white-alpha);
+
+    --inbox-title-color: var(--white);
+
+    --border-color: var(--border-dark);
   }
 }
 

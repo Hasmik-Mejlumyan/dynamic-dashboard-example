@@ -1,0 +1,38 @@
+[
+  {
+    "image": "/images/static/people/misty.jpg",
+    "name": "Misty",
+    "message": "Hey! there I'm available...",
+    "time": "13:40 PM"
+  },
+  {
+    "image": "/images/static/people/melissa.jpg",
+    "name": "Melissa",
+    "message": "Hey! there I'm available...",
+    "time": "13:40 PM"
+  },
+  {
+    "image": "/images/static/people/dwayne.jpg",
+    "name": "Dwayne",
+    "message": "Hey! there I'm available...",
+    "time": "13:34 PM"
+  },
+  {
+    "image": "/images/static/people/martin.jpg",
+    "name": "Martin",
+    "message": "Hey! there I'm available...",
+    "time": "13:17 PM"
+  },
+  {
+    "image": "/images/static/people/vincent.jpg",
+    "name": "Vincent",
+    "message": "Hey! there I'm available...",
+    "time": "12:20 PM"
+  },
+  {
+    "image": "/images/static/people/robert.jpg",
+    "name": "Robert Chappa",
+    "message": "Hey! there I'm available...",
+    "time": "10:12 AM"
+  }
+]
