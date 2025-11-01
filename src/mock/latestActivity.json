@@ -41,7 +41,7 @@
       "orderNumber": 12354781,
       "image": "/images/static/people/misty.jpg",
       "name": "Riverston Glass Chair",
-      "status": "confirm",
+      "status": "delivered",
       "amount": 185,
       "date": "5/12/2016"
     },
@@ -65,7 +65,7 @@
       "orderNumber": 12365474,
       "image": "/images/static/people/dwayne.jpg",
       "name": "Oasis Bathroom Teak Corner",
-      "status": "cancel",
+      "status": "shipped",
       "amount": 8451,
       "date": "5/12/2016"
     },
@@ -73,7 +73,7 @@
       "orderNumber": 85214796,
       "image": "/images/static/people/vincent.jpg",
       "name": "BeoPlay Speaker",
-      "status": "cancel",
+      "status": "delivered",
       "amount": 584,
       "date": "5/12/2016"
     },
@@ -81,7 +81,7 @@
       "orderNumber": 12354781,
       "image": "/images/static/people/vincent.jpg",
       "name": "BeoPlay Speaker",
-      "status": "cancel",
+      "status": "delivered",
       "amount": 185,
       "date": "5/12/2016"
     }

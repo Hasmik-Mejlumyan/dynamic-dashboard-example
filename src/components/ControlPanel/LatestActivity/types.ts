@@ -1,7 +1,7 @@
 export type StatusTransactionType = 'confirm' | 'paymentExpired' | 'waitingPayment';
 export type OrderStatusType = 'shipped' | 'delivered' | 'cancel';
 
-interface ITransaction {
+export interface ITransaction {
   image: string;
   name: string;
   status: StatusTransactionType;
@@ -9,7 +9,7 @@ interface ITransaction {
   date: string;
 }
 
-interface IOrder {
+export interface IOrder {
   orderNumber: number;
   image: string;
   name: string;

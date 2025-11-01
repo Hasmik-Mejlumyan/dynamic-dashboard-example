@@ -3,11 +3,13 @@ import LatestOrders from './LatestOrders.tsx';
 
 import latestActivity from '../../../mock/latestActivity.json';
 
+import type { IOrder, ITransaction } from './types.ts';
+
 const LatestActivity = () => {
   return (
     <div className="grid grid-cols-2 gap-6">
-      <LatestTransactions transactions={latestActivity.latestTransactions} />
-      <LatestOrders />
+      <LatestTransactions transactions={latestActivity.latestTransactions as ITransaction[]} />
+      <LatestOrders orders={latestActivity.latestOrders as IOrder[]} />
     </div>
   );
 };
