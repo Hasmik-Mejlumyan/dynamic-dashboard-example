@@ -57,7 +57,7 @@ const LatestTransactions: FC<ILatestTransactionsProps> = ({ transactions }) => {
 
   return (
     <Card title="Latest Transactions">
-      <div>
+      <div className="overflow-auto w-full pb-1 scrollbar">
         <table className="w-full">
           <tbody>
             {latestTransactionsContent}
